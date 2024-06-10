@@ -26,12 +26,12 @@ Deployment: Netlify
 📬 Contact: Form and contact information for reaching out. cagn also mail to amitansuporiyadarsan70@gmail.com
 
 📣 Feedback
-I appreciate any feedback you may have to improve this site. Feel free to reach out via the contact form or connect with me on [LinkedIn/Twitter/etc.].
+I appreciate any feedback you may have to improve this site. Feel free to reach out via the contact form or connect with me on https://www.linkedin.com/in/amitansu-priyadarsan/.
 
 🙏 Acknowledgments
-Thanks to everyone who has supported me in my professional journey. Special thanks to [Mentor/Institution/Inspirational Figure] for their guidance.
+Thanks to everyone who has supported me in my professional journey.
 
 Visit the site: Amitansu Portfolio
-Thanks to everyone who has supported me in my professional journey. Special thanks to [Mentor/Institution/Inspirational Figure] for their guidance.
+Thanks to everyone who has supported me in my professional journey.
 
 Visit the site: [Amitansu Portfolio](https://amitansuportfolio.netlify.app/)
