@@ -2,7 +2,7 @@
 
 Welcome to my professional portfolio website! This site showcases my projects, skills, and experience as a Web Developer.
 
-🌟 Website Overview
+🌟 Website Overview:
 This portfolio is designed to provide an overview of my work and professional journey. Here, you can find:
 
 👤 About Me: 
@@ -17,7 +17,7 @@ Information on how to get in touch with me for potential collaborations or oppor
 Frontend: React, HTML5, CSS3, JavaScript
 Deployment: Netlify
 
-🗺️ How to Navigate
+🗺️ How to Navigate:
 🏠 Home: Introduction and a brief overview.
 📝 About: Detailed information about my professional background.
 📁 Projects: Gallery of my projects with links and descriptions.
@@ -25,10 +25,10 @@ Deployment: Netlify
 
 📬 Contact: Form and contact information for reaching out. cagn also mail to amitansuporiyadarsan70@gmail.com
 
-📣 Feedback
+📣 Feedback:
 I appreciate any feedback you may have to improve this site. Feel free to reach out via the contact form or connect with me on https://www.linkedin.com/in/amitansu-priyadarsan/.
 
-🙏 Acknowledgments
+🙏 Acknowledgments:
 Thanks to everyone who has supported me in my professional journey.
 
 Visit the site: [Amitansu Portfolio](https://amitansuportfolio.netlify.app/)
