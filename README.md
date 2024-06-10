@@ -31,7 +31,4 @@ I appreciate any feedback you may have to improve this site. Feel free to reach 
 🙏 Acknowledgments
 Thanks to everyone who has supported me in my professional journey.
 
-Visit the site: Amitansu Portfolio
-Thanks to everyone who has supported me in my professional journey.
-
 Visit the site: [Amitansu Portfolio](https://amitansuportfolio.netlify.app/)
