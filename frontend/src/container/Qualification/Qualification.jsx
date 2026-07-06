@@ -122,7 +122,7 @@ const Qualification = () => {
               </div>
               <div className="qualification__data">
                 <div>
-                  <h3 className="qualification__title">Software Developer</h3>
+                  <h3 className="qualification__title">Software Developer Intern</h3>
                   <span className="qualification__subtitle">
                     <a href="https://www.jindalstainless.com/" target="_blank" rel="noopener noreferrer" className="company-link">
                       Jindal Stainless Limited

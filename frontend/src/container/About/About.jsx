@@ -5,7 +5,7 @@ import "./About.scss";
 import { images } from '../../constants';
 
 
-import CV from "../../assets/fina_Amitansu Resume.pdf";
+import CV from "../../assets/nova.pdf";
 import Info from "./info";
 
 import { AppWrap, MotionWrap } from '../../wrapper';
