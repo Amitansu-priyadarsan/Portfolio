@@ -26,7 +26,8 @@ import about04 from '../assets/about01.png';
 import profilephoto10 from '../assets/profilephoto10.png';
 import profile10 from '../assets/profile10.png';
 import jsl from '../assets/jsl.png';
-import ply from '../assets/ply.png'
+import nova from '../assets/nova.svg';
+import neuradynamics from '../assets/neuradynamics.png';
 
 
 
@@ -65,7 +66,8 @@ export default {
   redux,
   sass,
   typescript,
-  ply,
+  nova,
+  neuradynamics,
   vue,
   about01,
   about02,

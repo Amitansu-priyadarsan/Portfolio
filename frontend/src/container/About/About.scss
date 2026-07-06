@@ -18,7 +18,7 @@
 
 .about__box {
   background-color: var(--container-color);
-  border: 1px solid rgba(0, 0, 0, 12);
+  border: 1px solid rgba(0, 0, 0, 0.12);
   border-radius: 0.75rem;
   text-align: center;
   padding: 1rem 1.25rem;
@@ -50,7 +50,65 @@
 
 
 /* BREAK POINTS */
-@media screen and (max-width: 992px) {  
+@media screen and (min-width: 1400px) {
+  .about__img {
+    width: 420px;
+  }
+
+  .about__info {
+    grid-template-columns: repeat(3, 170px);
+    gap: 0.75rem;
+  }
+
+  .about__description {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .about__container.container {
+    max-width: 1400px;
+    column-gap: 6rem;
+  }
+
+  .about__img {
+    width: 550px;
+  }
+
+  .about__info {
+    grid-template-columns: repeat(3, 230px);
+    gap: 1rem;
+  }
+
+  .about__box {
+    padding: 1.75rem 1.5rem;
+  }
+
+  .about__icon {
+    font-size: 2.5rem;
+  }
+
+  .about__title {
+    font-size: 1.4rem;
+  }
+
+  .about__subtitle {
+    font-size: 1.2rem;
+  }
+
+  .about__description {
+    font-size: 1.65rem;
+    line-height: 1.65;
+  }
+
+  .button {
+    font-size: 1.5rem;
+    padding: 1.5rem 2.5rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
   .about__container {
       grid-template-columns: 1fr;
       row-gap: 2.5rem;

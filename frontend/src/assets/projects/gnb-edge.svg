@@ -1,0 +1,28 @@
+<svg width="700" height="520" viewBox="0 0 700 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="700" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F2027"/>
+      <stop offset="0.5" stop-color="#203A43"/>
+      <stop offset="1" stop-color="#2C5364"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="700" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#34D399"/>
+    </linearGradient>
+  </defs>
+  <rect width="700" height="520" fill="url(#bg)"/>
+  <!-- abstract route line -->
+  <path d="M60 430 C 180 380, 220 470, 340 420 S 560 330, 650 370" stroke="#38BDF8" stroke-opacity="0.35" stroke-width="3" stroke-dasharray="1 10" stroke-linecap="round"/>
+  <circle cx="60" cy="430" r="7" fill="#34D399"/>
+  <circle cx="340" cy="420" r="5" fill="#38BDF8"/>
+  <circle cx="650" cy="370" r="7" fill="#38BDF8"/>
+  <!-- location pin -->
+  <g transform="translate(325 96)">
+    <path d="M25 0C11.2 0 0 11.2 0 25c0 18.7 25 45 25 45s25-26.3 25-45C50 11.2 38.8 0 25 0z" fill="url(#accent)"/>
+    <circle cx="25" cy="24" r="10" fill="#0F2027"/>
+  </g>
+  <text x="350" y="248" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="58" font-weight="700" fill="#FFFFFF" letter-spacing="1">GNB Edge</text>
+  <text x="350" y="292" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="24" font-weight="400" fill="#A5F3FC" letter-spacing="4">FLEET MANAGEMENT SYSTEM</text>
+  <rect x="130" y="322" width="440" height="2" rx="1" fill="url(#accent)" fill-opacity="0.6"/>
+  <text x="350" y="360" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="17" font-weight="400" fill="#CBD5E1">React &#183; React Native &#183; Node.js &#183; MongoDB &#183; gRPC</text>
+</svg>

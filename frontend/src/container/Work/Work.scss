@@ -139,18 +139,19 @@
   h4 {
     margin-top: 1rem;
     line-height: 1.5;
-
-    @media screen and (min-width: 2000px) {
-      margin-top: 3rem;
-    }
+    text-align: center;
   }
 
   .app__work-tag {
-    position: absolute;
-
+    margin-top: -2.5rem;
     padding: 0.5rem 1rem;
     border-radius: 10px;
     background-color: #fff;
-    top: -25px;
+    position: relative;
+    z-index: 1;
+
+    @media screen and (min-width: 2000px) {
+      margin-top: -3.5rem;
+    }
   }
 }

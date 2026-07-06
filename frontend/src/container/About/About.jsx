@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from 'react';
-import { motion } from 'framer-motion';
+import React from 'react';
 
 import "./About.scss";
 
@@ -10,22 +9,20 @@ import CV from "../../assets/fina_Amitansu Resume.pdf";
 import Info from "./info";
 
 import { AppWrap, MotionWrap } from '../../wrapper';
-import './About.scss';
-import { urlFor, client } from '../../client';
 
 const About = () => {
-  const [abouts, setAbouts] = useState([]);
-
   return (
     <>
       
       <div className="section">
+       <h2 className="head-text">About <span>Me</span></h2>
+       <span className="subtitle">A short introduction</span>
        <div className="about__container container grid">
             <img src={images.profile10} alt="about" className="about__img" />
             <div className="about__data">
                 <Info />
                 <p className="about__description">
-                Senior at VIT Bhopal | FullStack developer | Aspiring blockchain developer | Expereince in Data Analyst| National level chess player
+                Associate Software Developer at NOVA, Chennai | Frontend Developer skilled in React, Redux &amp; JavaScript | B.Tech from VIT Bhopal | National level chess player
                 </p>
                 <a download="" href={CV} className="button button--flex">
                     Download CV
@@ -54,12 +51,10 @@ const About = () => {
                             fill="var(--container-color)"
                         ></path>
                     </svg>
-                    
-                    
+
+
                 </a>
-                <h1 className="section__title">About Me</h1>
-              <span className="subtitle">A short introduction</span>
-                
+
             </div>
             
         </div>

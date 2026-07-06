@@ -10,6 +10,23 @@
   --gray-color: #6b7688;
   --brown-color: #46364a;
   --white-color: #ffffff;
+
+  /* variables used by the About & Qualification sections */
+  --title-color: #2a2a2a;
+  --title-color-dark: #030303;
+  --text-color: #6b7688;
+  --container-color: #ffffff;
+  --normal-font-size: 1rem;
+  --small-font-size: 0.875rem;
+  --smaller-font-size: 0.813rem;
+  --font-medium: 500;
+  --font-bold: 700;
+  --mb-0-5: 0.5rem;
+  --mb-0-75: 0.75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
 }
 
 * {

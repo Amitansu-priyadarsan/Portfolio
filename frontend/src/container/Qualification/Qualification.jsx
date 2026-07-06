@@ -40,7 +40,7 @@ const Qualification = () => {
                   <span className="qualification__subtitle">Vellore Institute of Technology, Bhopal</span>
                   <div className="qualification__calendar">
                     <HiOutlineCalendar className="qualification__calendar-icon" />
-                    2021-2025(ongoing)
+                    2021-2025
                   </div>
                 </div>
                 <div>
@@ -83,16 +83,16 @@ const Qualification = () => {
               : "qualification__content"}>
               <div className="qualification__data">
                 <div>
-                  <h3 className="qualification__title">Software Developer</h3>
+                  <h3 className="qualification__title">Associate Software Developer</h3>
                   <span className="qualification__subtitle">
-                    <a href="https://www.jindalstainless.com/" target="_blank" rel="noopener noreferrer" className="company-link">
-                      Jindal Stainless Limited
-                      <img src={images.jsl} alt="Jindal Stainless Logo" className="logo" />
+                    <a href="https://www.novatab.com/" target="_blank" rel="noopener noreferrer" className="company-link">
+                      NOVA, Chennai
+                      <img src={images.nova} alt="NOVA Logo" className="logo-nova" />
                     </a>
                   </span>
                   <div className="qualification__calendar">
                     <HiOutlineCalendar className="qualification__calendar-icon" />
-                    September 2023 - 9 November 2023
+                    June 2024 - Present
                   </div>
                 </div>
                 <div>
@@ -107,17 +107,36 @@ const Qualification = () => {
                   <span className="line"></span>
                 </div>
                 <div>
-                  <h3 className="qualification__title">Data Analyst</h3>
+                  <h3 className="qualification__title">Software Development Engineer Intern</h3>
                   <span className="qualification__subtitle">
-                    <a href="https://plypicker.com/" target="_blank" rel="noopener noreferrer" className="company-link">
-                      PlyPicker
-                      <img src={images.ply} alt="PlyPicker Logo" className="logo1" />
+                    <a href="https://neuradynamics.ai/" target="_blank" rel="noopener noreferrer" className="company-link">
+                      Neuradynamics.ai
+                      <img src={images.neuradynamics} alt="Neuradynamics.ai Logo" className="logo-neura" />
                     </a>
                   </span>
                   <div className="qualification__calendar">
                     <HiOutlineCalendar className="qualification__calendar-icon" />
-                    8 April 2022 - 8 June 2022
+                    November 2023 - May 2024
                   </div>
+                </div>
+              </div>
+              <div className="qualification__data">
+                <div>
+                  <h3 className="qualification__title">Software Developer</h3>
+                  <span className="qualification__subtitle">
+                    <a href="https://www.jindalstainless.com/" target="_blank" rel="noopener noreferrer" className="company-link">
+                      Jindal Stainless Limited
+                      <img src={images.jsl} alt="Jindal Stainless Logo" className="logo" />
+                    </a>
+                  </span>
+                  <div className="qualification__calendar">
+                    <HiOutlineCalendar className="qualification__calendar-icon" />
+                    September 2023 - November 2023
+                  </div>
+                </div>
+                <div>
+                  <span className="qualification__rounder"></span>
+                  <span className="line"></span>
                 </div>
               </div>
             </div>

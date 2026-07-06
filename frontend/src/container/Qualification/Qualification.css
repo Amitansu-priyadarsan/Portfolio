@@ -9,15 +9,13 @@
 }
 
 .qualification__button {
-    font-size: 2rem;
-    /* Increase font size */
+    font-size: 1.75rem;
     font-weight: var(--font-bold);
-    /* Use a bold font weight */
     color: var(--title-color);
     margin: 0 var(--mb-1);
     cursor: pointer;
-    padding: 1.5rem 3rem;
-    /* Increase padding for larger button size */
+    padding: 1rem 2.5rem;
+    border-radius: 1rem;
 }
 
 .qualification__button:hover {
@@ -43,6 +41,18 @@
     height: 40px;
     margin-left: 0.5rem;
 
+}
+
+.logo-nova {
+    height: 34px;
+    width: auto;
+    margin-left: 0.5rem;
+}
+
+.logo-neura {
+    height: 34px;
+    width: 34px;
+    margin-left: 0.5rem;
 }
 
 /* Add this CSS to style the links and logos */
@@ -166,15 +176,96 @@ a.company-link:hover {
     gap: 1.5rem;
 }
 
+.qualification__rounder {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: var(--title-color, #2a2a2a);
+    border-radius: 50%;
+}
+
 .line {
     display: block;
-    width: 1px;
+    width: 2px;
     height: 100%;
-    background-color: black !important;
-    margin-left: 18px;
+    background-color: var(--title-color, #2a2a2a);
+    transform: translate(6px, -7px);
+}
+
+.qualification__data {
+    padding-bottom: 1.5rem;
 }
 
 /* BREAK POINTS */
+@media screen and (min-width: 1400px) {
+    .qualification__container {
+        max-width: 900px;
+    }
+
+    .qualification__title {
+        font-size: 1.25rem;
+    }
+
+    .qualification__subtitle {
+        font-size: 1.05rem;
+    }
+
+    .qualification__calendar {
+        font-size: 0.95rem;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    .qualification__container {
+        max-width: 1150px;
+    }
+
+    .qualification__button {
+        font-size: 2.5rem;
+        padding: 1.25rem 3rem;
+    }
+
+    .qualification__title {
+        font-size: 1.9rem;
+    }
+
+    .qualification__subtitle {
+        font-size: 1.5rem;
+    }
+
+    .qualification__calendar {
+        font-size: 1.25rem;
+    }
+
+    .qualification__data {
+        column-gap: 3rem;
+        padding-bottom: 2.5rem;
+    }
+
+    .qualification__rounder {
+        width: 17px;
+        height: 17px;
+    }
+
+    .line {
+        transform: translate(8px, -7px);
+    }
+
+    .logo {
+        width: 126px;
+        height: 56px;
+    }
+
+    .logo-nova {
+        height: 48px;
+    }
+
+    .logo-neura {
+        height: 48px;
+        width: 48px;
+    }
+}
+
 @media screen and (max-width: 992px) {
     .qualification__container {
         margin-left: auto;
@@ -207,9 +298,10 @@ a.company-link:hover {
         /* Add gap between rows */
     }
 
-    .line {
+    .line,
+    .qualification__rounder {
         display: none;
-        /* Hide the line on smaller screens */
+        /* Hide the timeline line and dots on smaller screens */
     }
 }
 
